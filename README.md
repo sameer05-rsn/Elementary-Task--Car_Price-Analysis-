@@ -6,18 +6,28 @@ Objective
 The objective of this project is to analyze the CarPrice_Assignment dataset to identify the key factors that influence car prices.
 The analysis involves data cleaning, preprocessing, feature engineering, and visualization to uncover meaningful insights for business decision-making and predictive modeling.
 
-Overview
+### Overview
+This project performs exploratory data analysis (EDA) on the CarPrice_Assignment dataset to identify key factors influencing car prices.
 
-This project provides an end-to-end exploratory data analysis (EDA) of car price data.
-It covers:
-
-Cleaning and preprocessing raw data
+### Cleaning and preprocessing raw data
 
 Handling categorical variables
 
 Feature engineering (e.g., car stability metric)
 
-Visualization and correlation analysis
+Remove unnecessary columns.
+
+Extract carCompany from CarName.
+
+Fix spelling errors in company names.
+
+Handle categorical variables.
+
+Convert categorical columns to dummy variables.
+
+Rename dummy variables for readability.
+
+### Visualization and correlation analysis
 
 Identifying the most important features that affect car prices
 
@@ -50,27 +60,7 @@ Are there missing values, and what percentage of data is missing?
 
 Should rows with high missing values (>60% columns) be dropped?
 
-2️⃣ Data Cleaning & Preprocessing
-
-Drop unwanted/irrelevant columns.
-
-Extract carCompany from CarName.
-
-Fix spelling errors in car company names.
-
-Handle categorical variables and convert them to dummy variables.
-
-Rename dummy columns for clarity.
-
-Questions Addressed:
-
-Which columns are unnecessary and can be removed?
-
-How do we standardize company names?
-
-How do categorical variables (e.g., fuel type, car body) get encoded?
-
-3️⃣ Feature Engineering
+### Feature Engineering
 
 Create car_stability = wheelbase / carlength.
 
@@ -82,7 +72,7 @@ Can new meaningful metrics be derived from existing features?
 
 Which features are redundant after encoding or transformation?
 
-4️⃣ Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 
 How many rows and columns are in the dataset?
 
@@ -110,7 +100,7 @@ How do different car companies influence pricing?
 
 
 
-🛠 Tools & Libraries
+### Tools & Libraries
 
 Python 3.11
 
