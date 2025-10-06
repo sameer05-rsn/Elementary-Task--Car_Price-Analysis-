@@ -48,11 +48,11 @@ Categorical: CarName, fueltype, aspiration, carbody, drivewheel, enginetype, fue
  Data Analysis Process
  Data Import & Initial Inspection
 
-Import libraries and load the dataset.
+### Import libraries and load the dataset.
 
 Inspect dataset shape, columns, and preview rows.
 
-Questions Addressed:
+# Questions Addressed:
 
 How many rows and columns does the dataset have?
 
