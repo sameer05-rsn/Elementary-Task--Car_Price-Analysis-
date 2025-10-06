@@ -52,7 +52,7 @@ Categorical: CarName, fueltype, aspiration, carbody, drivewheel, enginetype, fue
 
 Inspect dataset shape, columns, and preview rows.
 
-# Questions Addressed:
+### Questions Addressed:
 
 How many rows and columns does the dataset have?
 
